@@ -6,31 +6,9 @@
 
 # Objectives of the session
 
- - helm
  - kubectl
+ - helm
  - k8zation process
-
-
-
-# Helm
-
- - templating
- - package manager
- - upgrade/rollback
-
-
-# Vocabulary
-
- - chart
- - release
-
-
-# commands
-
- - upgrade
- - list
- - history
- - rollback
 
 
 
@@ -75,9 +53,9 @@ Note:
 
 # Type of resources
 
- - deploy (deployment)
- - rs (replica set)
  - po (pods)
+ - rs (replica set)
+ - deploy (deployment)
  - ns (namespace)
  - svc (service)
  - secrets
@@ -95,11 +73,34 @@ options
  - `-n` (--namespace)
  - `--all-namespaces`
 
+
 # pods
 
- - exec
+ - exec -it
  - logs
  - `-c`
+
+
+
+# Helm
+
+ - templating
+ - package manager
+ - upgrade/rollback
+
+
+# Vocabulary
+
+ - chart
+ - release
+
+
+# commands
+
+ - upgrade
+ - list
+ - history
+ - rollback
 
 
 
