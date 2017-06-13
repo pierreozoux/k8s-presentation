@@ -23,6 +23,16 @@ kubectl config use-context
 ```
 
 
+# Type of resources
+
+ - pods (po)
+ - replica set (rs)
+ - deployment (deploy)
+ - namespace (ns)
+ - service (svc)
+ - secrets
+
+
 # Resources
 
 ![resources](/images/resources.png)
@@ -49,16 +59,6 @@ Note:
      |                           secrets      |
      |                                        |
      +----------------------------------------+
-
-
-# Type of resources
-
- - po (pods)
- - rs (replica set)
- - deploy (deployment)
- - ns (namespace)
- - svc (service)
- - secrets
 
 
 # action on resources
@@ -118,6 +118,7 @@ options
 
 # Docker
 
+ - supported ruby version
  - Good Docker
  - Good doceker-compose for devs
  - small / start&stop fast / minimal
