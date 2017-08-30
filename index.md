@@ -1,6 +1,6 @@
 # k8s presentation
 
-13 June 2017
+30 Aug 2017
 
 
 
@@ -30,6 +30,7 @@ kubectl config use-context
  - deployment (deploy)
  - namespace (ns)
  - service (svc)
+ - ingress (ing)
  - secrets
 
 
@@ -41,8 +42,8 @@ Note:
                                         elb
                                          +
                                          |
-                                         |
-     +----------------------------------------+
+     +-----------------------------------|----+
+     |                                  ing   |
      |ns                                 |    |
      |                                   v    |
      |                                  svc   |
@@ -59,7 +60,6 @@ Note:
      |                           secrets      |
      |                                        |
      +----------------------------------------+
-
 
 # action on resources
 
@@ -128,6 +128,7 @@ options
 
  - deploy
  - svc
+ - ing
  - default values
 
 
